@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#05080d" />
+    <meta
+      name="description"
+      content="MuleTrace AI is an AI-powered financial crime investigation platform for detecting mule accounts, fraud rings and suspicious transaction flows."
+    />
+    <script>
+      (function () {
+        try {
+          if (window.localStorage.getItem('muletrace-theme') === 'light') {
+            document.documentElement.classList.add('light-theme')
+          }
+        } catch {
+          void 0
+        }
+      })()
+    </script>
+    <title>MuleTrace AI</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
